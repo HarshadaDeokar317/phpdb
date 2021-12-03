@@ -10,7 +10,7 @@ if ($connection->connect_errno) {
     printf("Connect failed: %s\n", $mysqli->connect_error);
     exit();
 } else {
-    printf("Hi ,Connected to the database");
+    printf("Connected to the database");
 }
 $connection->close();
 ?>
